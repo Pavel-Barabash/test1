@@ -33,16 +33,3 @@ def start_game():
             break
     return contin_game()
 
-def contin_game():
-    text = input('Ответь просто: да \ нет?: ')
-    if text.lower() == 'да':
-        print('Отлично, поехали!!!')
-        return start_game()
-    if text.lower() == 'нет':
-        print('Грустно, если передумаешь, Я буду тут...')
-        return
-    else:
-        print('Разве так сложно "правильно" ответить? Попробуй еще раз? Тут тоже поработали')
-        contin_game()
-        
-start_game()
