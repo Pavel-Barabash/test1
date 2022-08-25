@@ -1,5 +1,5 @@
 from random import *
-print('Добро пожаловать в числовую угадайку(изменения в файле)!')
+print('@@@@Добро пожаловать в числовую угадайку(изменения в файле)!')
 
 def is_valid(num, num2):
     if num.isdigit and 1 <= int(num) <= num2:
