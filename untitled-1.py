@@ -1,5 +1,5 @@
 from random import *
-print('Добро пожаловать в числовую угадайку!')
+print('Добро пожаловать в числовую угадайку(изменения в файле)!')
 
 def is_valid(num, num2):
     if num.isdigit and 1 <= int(num) <= num2:
@@ -33,6 +33,7 @@ def start_game():
             break
     return contin_game()
 
+
 def contin_game():
     text = input('Ответь просто: да \ нет?: ')
     if text.lower() == 'да':
@@ -46,3 +47,4 @@ def contin_game():
         contin_game()
         
 start_game()
+
